@@ -1,6 +1,32 @@
 .script{
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+h6{
+  font-size: 24pt;
+}
+header{
+  width: 1240px;
+  height: 89px;
+}
+nav{
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  height: 39px
+
+
+}
+.logo{
+  width: 147.2px;
+  height: 89px;
+  display: flex;
+  align-items: flex-start;
+
+
+}
+.margin{
+  margin: 25px;
 }
