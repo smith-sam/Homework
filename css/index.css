@@ -2,31 +2,83 @@
   font-family: "Dancing Script", cursive;
 }
 body{
+  width: 1240px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-family: "Open Sans", Arial, sans-serif;
 }
-h6{
-  font-size: 24pt;
+h2{
+  font-size: 72px;
+  font-weight: normal;
 }
+h3{
+  font-size: 48px;
+  font-weight: normal;
+}
+h6{
+  font-size: 24px;
+  font-weight: normal;
+}
+p{
+  font-size: 18px;
+  font-weight: normal;
+}
+/* Navigation */
 header{
-  width: 1240px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
   height: 89px;
 }
 nav{
   display: flex;
-  align-content: flex-end;
   justify-content: flex-end;
-  height: 39px
-
+  align-content: center;
+  width: 860px;
+  height:39px;
+}
+.navset{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  text-align: center;
 
 }
 .logo{
-  width: 147.2px;
-  height: 89px;
   display: flex;
   align-items: flex-start;
-
+  justify-content: flex-start;
 
 }
 .margin{
   margin: 25px;
+}
+/*hero*/
+.hero{
+  background-color: rgba(207, 208, 211, 0.5);
+  display: flex;
+}
+.icons{
+  margin: 15px;
+}
+.longbutton{
+  width: 296px;
+  height: 54px;
+  border-radius: 30px;
+  background-color: #58585d;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+.longbuttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.image{
+  border-radius: 10px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.midpage{
+
 }
