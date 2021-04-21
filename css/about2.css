@@ -1,0 +1,148 @@
+/*text styles*/
+.script{
+  font-family: "Dancing Script", cursive;
+}
+body{
+  font-family: "Open Sans", Arial, sans-serif;
+}
+h2{
+  font-size: 72px;
+  font-weight: normal;
+}
+h3{
+  font-size: 48px;
+  font-weight: normal;
+}
+h5{
+  font-size: 36px;
+  font-weight: normal;
+}
+h6{
+  font-size: 24px;
+  font-weight: normal;
+}
+p{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*grid*/
+#bodygrid{
+  display: grid;
+  grid-template-rows: 89px 4fr 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "logo navigation"
+  "hero imagebox"
+  "midtitle midtitle"
+  "packit lionsgate"
+  "footerrule footerrule"
+  "copyrighttext socicon"
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  width: 860px;
+  height:39px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header{
+  width: 1240px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  height: 89px;
+  .navset{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    text-align: center;
+
+  }
+  .logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  .margin{
+    margin: 25px;
+  }
+  /*hero*/
+  .herobackground{
+      background-color: rgba(207, 208, 211, 0.5);
+  }
+  .hero{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+  .icons{
+    margin: 15px;
+  }
+  .longbutton{
+    width: 296px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #58585d;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.25);
+  }
+  .longbuttontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .shortbutton{
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #cfd0d3;
+  }
+  .shortbutttontext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+  }
+  .imagebox{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  .image{
+
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+  }
+  .midpage{
+
+  }
+  /*footer*/
+  footer{
+    width: 1240px;
+    height: 106px;
+    padding: 22px;
+  }
+  .footerrule{
+    width: 1030px;
+    border: 1.5px solid #B8BAC0;
+    border-radius: 60px;
+  }
+  .footericons{
+    display: flex;
+  justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: : 15px;
+  }
+  .copyright{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
