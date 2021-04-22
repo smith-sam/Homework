@@ -1,4 +1,5 @@
 /*fonts*/
+
 .script{
   font-family: "Dancing Script", cursive;
 }
@@ -32,6 +33,7 @@ p{
 	margin-top: -25px;
 }
 /* Navigation */
+
 header{
   display: flex;
   justify-content: center;
@@ -43,7 +45,7 @@ padding-bottom: 40px;
 nav{
   width: 1075px;
   height: 89px;
-  padding-top: 35px;
+  padding-top: 50px;
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
@@ -59,14 +61,19 @@ nav{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  padding-top: 15px;
 
 }
 .margin{
   margin: 25px;
 }
 /*hero*/
-
-
+.iconalign {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 16px;
+}
 #herogrid{
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -116,7 +123,6 @@ nav{
   align-items: center;
   color: white;
   text-align: center;
-
 }
 .shortbutton{
   width: 190px;
@@ -146,50 +152,23 @@ nav{
   border-radius: 10px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
 }
-
 /*footer*/
-#footgrid{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 10px 90%;
-    grid-template-areas:
-		"line line"
-		"footcopyright footicons";
-	width: 1018px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 63px;
-}
-#line{
+.try{
 	display: flex;
-	justify-content: center;
 	align-content: center;
-	
-	
+	justify-content: center;
 }
 .footerrule{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-  width: 1000px;
+ margin: 63px 100px 22px 100px;
+  width: 1270px;
   color: #B8BAC0;
   border: 1.5px solid #B8BAC0;
-  border-radius: 60px;
+  border-radius: 100px;
 }
 .footericons{
-  display: flex;
-justify-content: flex-end;
-  align-items: flex-end;
   margin-left: 15px;
 }
 .copyright{
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  padding-right:620px;
 }
-.iconalign {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	padding: 16px;
-}
+
